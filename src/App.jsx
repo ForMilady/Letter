@@ -3,7 +3,7 @@ import PageSec from "./index";
 
 const App = () => {
   return (
-    <section style={{ background: "fixed", overflow: "hidden" }}>
+    <section style={{ touchAction: `none`, overflow: 'hidden'}}>
       <PageSec />
     </section>
   );
